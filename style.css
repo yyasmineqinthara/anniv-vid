@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd; /* Biru pastel untuk latar belakang */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    border: 2px solid #bbdefb; /* Garis biru pastel */
+}
+
+h1 {
+    color: #ff7f7f; /* Warna pink */
+    font-size: 2rem;
+}
+
+.message {
+    color: #555;
+    margin: 10px 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.video-section {
+    margin-top: 20px;
+}
+
+video {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Tambahan elemen biru pastel di bagian ucapan */
+h2 {
+    color: #64b5f6; /* Warna biru pastel */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
